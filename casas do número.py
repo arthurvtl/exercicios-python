@@ -1,0 +1,11 @@
+n = input('Digite um número qualquer de 0 a 9999: ')
+print(' ')
+print('O número inserido foi {}'.format(n))
+print(' ')
+print('Suas casas respectivas a unidade, dezena, centena e milhar são:')
+print(' ')
+
+print('MILHAR:', n[0])
+print('CENTENA:', n[1])
+print('DEZENA:', n[2])
+print('UNIDADE:', n[3])
